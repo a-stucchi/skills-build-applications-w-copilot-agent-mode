@@ -1,0 +1,83 @@
+
+body {
+  background: linear-gradient(135deg, #e3f0ff 0%, #f9e7ff 100%);
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a7bd5 0%, #00d2ff 100%) !important;
+  box-shadow: 0 2px 8px rgba(58,123,213,0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.navbar-brand img {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffe082 !important;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(58,123,213,0.08);
+  background: #fff;
+}
+.card-title {
+  color: #3a7bd5;
+  font-weight: 700;
+}
+
+.table {
+  background: #f7faff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table th {
+  background: #3a7bd5;
+  color: #fff;
+  font-weight: 600;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f0ff;
+}
+.table-bordered {
+  border: 2px solid #3a7bd5;
+}
+
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #3a7bd5 0%, #00d2ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a7bd5 100%);
+  color: #ffe082;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3a7bd5;
+  font-weight: 700;
+}
+
+a, .App-link {
+  color: #3a7bd5;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #00d2ff;
+}
+
+.alert-info {
+  background: #e3f0ff;
+  color: #3a7bd5;
+  border: 1px solid #3a7bd5;
+}
